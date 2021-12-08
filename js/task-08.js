@@ -12,7 +12,6 @@ inputForm.addEventListener("submit", (event) => {
     };
     console.log(dataForm);
   } else {
-    alert("Заполните все поля");
+    alert("Все поля должны быть заполнены");
   }
-  inputForm.reset();
 });
